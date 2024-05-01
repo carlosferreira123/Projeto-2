@@ -7,33 +7,9 @@ body {
     overflow-wrap: break-word;
 }
 
-.Container {
-    max-width: 1280px;
-    margin: auto;
-
-}
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header {
-    width: 100%;
-    padding: 60px 4%;
-}
-header ul li{
-    margin: 0 40px; 
-
-}
 
 
 
-
-h1,h2,h3,h4,h5,h6 {
-          font-weight: 900;
-          color: #000;
-}
 .wrapper {
     width: 100%;
     margin: 0 auto;
@@ -49,6 +25,7 @@ main {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 section.module p{
   margin-bottom: 40px;
@@ -71,7 +48,8 @@ section.module.content {
 section.module.parallax {
     display: flex;
     flex-direction: column;
-   
+    justify-content: center;
+    
     height: 80vh !important;
     width: 100%;
     position: relative;
@@ -83,7 +61,7 @@ section.module.parallax {
 
 }
 
-section.module.parallax:after {
+section.module.parallax-1:after {
      content: "";
      height: 100%;
      width: 100%;
@@ -98,8 +76,58 @@ section.module.parallax-1 {
 }
 
 section.module.parallax h1 {
-    color: #FFF;
+    color: #222222;
     text-align: center;
-    font-size: 78px;
+    font-size: 50px;
     z-index: 50;
+}
+strong {
+    color: #ece8e8;
+}
+section.module.parallax-2 {
+    background-image: url(https://images.ecycle.com.br/wp-content/uploads/2021/05/03122127/pietro-de-grandi-T7K4aEPoGGk-unsplash-1536x1024.jpg);
+
+}
+section.module.parallax-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+section.module.parallax-3 {
+    background-image: url(https://www.viajali.com.br/wp-content/uploads/2017/09/paisagens-lindas-2.jpg);
+
+}
+
+section.module.parallax-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 1px;
+    text-align: center;
+    
 }
